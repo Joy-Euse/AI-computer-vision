@@ -2,7 +2,7 @@ from pyzbar.pyzbar import decode
 from PIL import Image
 
 # Load the QR image
-image = Image.open("QRcode.png")
+image = Image.open("qrcode.png")
 
 # Decode it
 decoded_objects = decode(image)
